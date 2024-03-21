@@ -48,6 +48,40 @@ Please visit https://xxxxx for more details.
 # citation
 
 ```
+@article{saga2023automatic,
+  title={Automatic evaluation-feedback system for automated social skills training},
+  author={Saga, Takeshi and Tanaka, Hiroki and Matsuda, Yasuhiro and Morimoto, Tsubasa and Uratani, Mitsuhiro and Okazaki, Kosuke and Fujimoto, Yuichiro and Nakamura, Satoshi},
+  journal={Scientific Reports},
+  volume={13},
+  number={1},
+  pages={6856},
+  year={2023},
+  publisher={Nature Publishing Group UK London}
+}
+
+@article{info:doi/10.2196/44857,
+author="Tanaka, Hiroki
+and Saga, Takeshi
+and Iwauchi, Kota
+and Honda, Masato
+and Morimoto, Tsubasa
+and Matsuda, Yasuhiro
+and Uratani, Mitsuhiro
+and Okazaki, Kosuke
+and Nakamura, Satoshi",
+title="The Validation of Automated Social Skills Training in Members of the General Population Over 4 Weeks: Comparative Study",
+journal="JMIR Form Res",
+year="2023",
+month="Apr",
+day="27",
+volume="7",
+pages="e44857",
+doi="10.2196/44857",
+url="https://formative.jmir.org/2023/1/e44857",
+url="https://doi.org/10.2196/44857",
+url="http://www.ncbi.nlm.nih.gov/pubmed/37103996"
+}
+
 @inproceedings{cao2017realtime,
   author = {Zhe Cao and Tomas Simon and Shih-En Wei and Yaser Sheikh},
   booktitle = {CVPR},
