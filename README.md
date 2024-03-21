@@ -4,12 +4,22 @@ This is a repository for the controller part of the automatic social skills trai
 
 For the customized Greta platform, please https://github.com/sagatake/greta_SST_platform.
 
+## Step1: download models
+
 Please download the openpose's body model and hand model from https://github.com/Hzzone/pytorch-openpose.
+
 Then, put it in eval_pipeline/openpose_model.
+
+## Step2: change paths
+
+Please change the following paths to the appropriate ones.
+
+* activate_env.bat
+* `path_w` in copy_eval.py
 
 # citation
 
-'''
+```
 @inproceedings{cao2017realtime,
   author = {Zhe Cao and Tomas Simon and Shih-En Wei and Yaser Sheikh},
   booktitle = {CVPR},
@@ -30,4 +40,4 @@ Then, put it in eval_pipeline/openpose_model.
   title = {Convolutional pose machines},
   year = {2016}
 }
-'''
+```
