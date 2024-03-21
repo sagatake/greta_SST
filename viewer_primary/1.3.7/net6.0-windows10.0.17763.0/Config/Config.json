@@ -1,0 +1,30 @@
+{
+  "Font" :{
+    "H1": 20,
+    "H2": 20,
+    "H3": 15,
+    "H4": 15,
+    "H5": 6
+  },
+  "Comment": {
+    "Text1": "よかったところ",
+    "Text2": "もっとよくなるには"
+  },
+  "Radarchart": {
+    "Title": {
+      "Text": "スコア"
+    },
+    "Legend": {
+      "SourceText": "今回",
+      "TargetText": "前回",
+      "Visible": true
+    }
+  },
+  "Display": {
+    "PrimaryDisplay": true,
+    "Maximized": true,
+    "Width": 800,
+    "Height": 1000,
+    "Topmost": false
+  }
+}
