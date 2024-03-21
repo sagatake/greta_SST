@@ -280,7 +280,7 @@ def main():
         print("#####################################")
         print("########## viewer.bat ##########")
         print("#####################################")
-        subprocess.call("viewer_primary.bat", shell=True)
+        # subprocess.call("viewer_primary.bat", shell=True)
         # subprocess.call("viewer_secondary.bat", shell=True)
     
     else:

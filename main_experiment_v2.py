@@ -252,7 +252,7 @@ def main():
     feedback_neg=json_load_feedback["NegativeComment"]
 
     speak_greta("ではフィードバックです。{}{}\n".format(feedback_pos, feedback_neg), path_w, block = False)
-    subprocess.call("viewer_primary.bat", shell=True)
+    # subprocess.call("viewer_primary.bat", shell=True)
     # subprocess.call("viewer_secondary.bat", shell=True)
     
 def check_response_category(scenario, User, turn):
