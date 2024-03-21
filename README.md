@@ -12,18 +12,24 @@ Please download the openpose's body model and hand model from https://github.com
 
 Then, put it in eval_pipeline/openpose_model.
 
-## Step2: change paths
+## Step2: replace Google credential file
+
+Please replace the Google credential file `sample.json` with your own credential.
+
+If you don't have any credentials, please follow the instruction bellow: https://developers.google.com/workspace/guides/create-credentials.
+
+## Step3: change paths
 
 Please change the following paths to the appropriate ones.
 
 * activate_env.bat
 * `path_w` in copy_eval.py
 
-## Step3: conda environment activation
+## Step4: conda environment activation
 
 Open the command prompt, then run `activate_env.bat`.
 
-## Step4: run the main program
+## Step5: run the main program
 
 Run the main script with `python main_experiment_v2.py TASK NUM_TASK NUM_POSITIVE_FEEDBACK NUM_NEGATIVE_FEEDBACK`.
 
